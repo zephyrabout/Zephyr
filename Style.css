@@ -1,0 +1,93 @@
+body {
+  background-image: url("Image-here [body].jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.Zephyr-title{
+    font-size: 1em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    opacity: 100%;
+}
+
+.top-bar{
+    height: 1.5em;
+    background-color: #7FB77E;
+    opacity: 80%;
+}
+.outline-ring{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    outline: auto;
+    outline-color: #ffff;
+    box-shadow: #000;
+    outline-style: auto;
+}
+.instructions{
+	font-size: 1.7em;
+    color: #ffff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 55px 0;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+}
+
+.time-taken{
+	font-size: 00.00001em;
+    color: #7FB77E;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+}
+
+ .Centre-ring{
+     position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     background-color: #7FB77E;
+     background-size: cover;
+     animation: animate 9s linear infinite;
+     box-shadow: 0 0 0 5px #7FB77E 0 0 0 5px rgba(0, 0, 225, #7FB77E);
+}
+@keyframes animate
+{
+    0%{
+     box-shadow: 0 0 0 5px #8BBE8A, 0 0 0 5px #98C597, 
+     0 0 0 5px #A5CCA4, 0 0 0 5px #A9D9A8, 0 0 0 5px #BFEBBE;
+
+    }
+
+    50%{
+        box-shadow: 0 0 0 5px #8BBE8A, 0 0 0 10px #98C597, 
+     0 0 0 15px #A5CCA4, 0 0 0 20px #A9D9A8, 0 0 0 25px #BFEBBE;
+    }
+
+    70%{
+        box-shadow: 0 0 0 5px #8BBE8A, 0 0 0 10px #98C597, 
+     0 0 0 15px #A5CCA4, 0 0 0 20px #A9D9A8, 0 0 0 25px #BFEBBE;
+    }
+
+    100%{
+        box-shadow: 0 0 0 5px #8BBE8A, 0 0 0 5px #98C597, 
+     0 0 0 5px #A5CCA4, 0 0 0 5px #A9D9A8, 0 0 0 5px #BFEBBE;
+    }
+
+}
